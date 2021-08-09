@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+body{
+    /* background-color: #03045e; */
+    color: #03045e;
+    font-family: 'Syne Mono', monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: grid;
+    place-items: center ;
+}
+input{
+    all: unset;
+    width: 250px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #03045e ;
+}
+button{
+    font-family: 'Syne Mono', monospace;
+    font-weight: bold;
+    background-color: #03045e;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    margin: 10px 0px 20px 0px;
+}
